@@ -37,7 +37,7 @@
     export __GL_SHADER_DISK_CACHE=1
     export __GL_SHADER_DISK_CACHE_PATH="${location}"
 
-    PATH=${wine}/bin:${winetricks}/bin:${legendary-gl}/bin:${gamemode}:$PATH
+    PATH=${wine}/bin:${winetricks}/bin:${legendary-gl}/bin:${gamemode}/bin:$PATH
 
     if [ ! -d "$WINEPREFIX" ]; then
       # install tricks
